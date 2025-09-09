@@ -1,0 +1,1 @@
+O principal problema é que **erros relacionados a tipos de dados só são detectados durante a execução do programa**. Isso pode levar a falhas inesperadas em produção, que poderiam ter sido identificadas e corrigidas durante a fase de desenvolvimento com a tipagem estática. 

@@ -1,0 +1,4 @@
+A principal diferença está em **quando** o tipo de uma variável é verificado.
+
+* **Tipagem Estática:** A verificação dos tipos é realizada em tempo de compilação. O programador deve declarar o tipo da variável (ex: `number`, `string`), e o compilador garante que o programa não tente executar operações inválidas entre tipos diferentes antes mesmo de ser executado.
+* **Tipagem Dinâmica:** A verificação dos tipos ocorre em tempo de execução. O tipo de uma variável é determinado pelo valor que ela recebe e pode mudar ao longo do programa. Erros de tipo só são descobertos quando o código é executado.

@@ -1,0 +1,26 @@
+# Ignorar a pasta de dependências do Node.js
+# Esta pasta é recriada com o comando 'npm install' e não deve ser enviada.
+/node_modules
+
+# Ignorar a pasta de build gerada pelo TypeScript
+# Contém os arquivos .js, .js.map, e .d.ts compilados.
+/build
+
+# Ignorar arquivos de log que podem ser gerados por npm ou yarn
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Ignorar arquivos de ambiente que podem conter senhas e chaves de API
+# NUNCA envie este arquivo para um repositório público!
+.env
+.env.local
+.env.*.local
+
+# Arquivos de sistema operacional que não devem estar no repositório
+.DS_Store
+Thumbs.db
+
+# Pasta de configuração do Visual Studio Code (opcional, mas recomendado)
+# Permite que cada desenvolvedor tenha suas próprias configurações locais.
+.vscode/
